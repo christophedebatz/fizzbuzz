@@ -1,0 +1,16 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "maintainers": ["Christophe de Batz"],
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test spec/fizzbuzz.spec.js"
+  },
+  "devDependencies": {
+    "test": "^3.3",
+    "assert": "^2.1"
+  }
+}
